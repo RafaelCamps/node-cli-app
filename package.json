@@ -1,0 +1,26 @@
+{
+  "name": "cli-app",
+  "version": "1.0.1",
+  "description": "cli application test",
+  "main": "index.js",
+  "preferGlobal": true,
+  "bin": "./commands.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RafaelCamps/node-cli-app.git"
+  },
+  "author": "Rafael Camps - Rafactorizando",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RafaelCamps/node-cli-app/issues"
+  },
+  "homepage": "https://github.com/RafaelCamps/node-cli-app#readme",
+  "dependencies": {
+    "commander": "^11.0.0",
+    "inquirer": "^4.0.0",
+    "mongoose": "^7.4.1"
+  }
+}
