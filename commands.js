@@ -1,4 +1,3 @@
-#!/bin/usr/env 'node'
 const program = require('commander')
 const { prompt }  = require('inquirer')
 const { addCustomer, findCustomer, updateCustomer, removeCustomer, listCustomers } = require('./index')

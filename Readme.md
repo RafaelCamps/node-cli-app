@@ -54,8 +54,7 @@ Aquí debemos añadir dos propiedades:
 
 A partir de ahora, en lugar de llamar a `node commands.js ...` deberemos llamar al **name** que hayamos indicado en nuestro `package.json`
 
-
-npm install -g ./
+<!-- npm install -g ./ -->
 
 Para finalizar debemos indicar a node que existe nuestro paquete, para esto usaremos el siguiente comando:
 
